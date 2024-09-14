@@ -42,7 +42,7 @@ header, footer, .submit, .showbutt, .sortA, .sortZ, .showbuttons, .sortNew, .sor
 }
 
 .icon1, .icon2, .icon3 {
-  background-color: var(--white);
+  background-color: var(--dark);
 }
 
 a, .arrow {
