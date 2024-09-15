@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Welocme to Swissipes, discover the taste of swissness" />
-        <meta name="keywords" content="Swiss Food Blog, Recipes Online, Cooking Instructions">
-        <title>Swissipes - we love swiss food</title>
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/751c721f41.js" crossorigin="anonymous"></script>
-        <script  type="module" src="/js/navbar.js"></script>
-        <script defer src="/js/scroll.js"></script>
-        <script  type="module" src="/js/rendercarouselle.js"></script>
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:3889521,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welocme to Swissipes, discover the taste of swissness" />
+    <meta name="keywords" content="Swiss Food Blog, Recipes Online, Cooking Instructions">
+    <title>Swissipes - we love swiss food</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/751c721f41.js" crossorigin="anonymous"></script>
+    <script type="module" src="/js/navbar.js"></script>
+    <script defer src="/js/scroll.js"></script>
+    <script type="module" src="/js/rendercarouselle.js"></script>
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 3889521, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
 <body>
     <header>
         <div class="headerdiv">
-        <button class="hamburger">M
-            <span class="icon1"></span>
-            <span class="icon2"></span>
-            <span class="icon3"></span>
-        </button>
-        <a href="index.html">
-            <div class="logo">
-                <img src="/pictures/Swissipes Logo.png" alt="logo">
-            </div>
-        </a>
+            <button class="hamburger">M
+                <span class="icon1"></span>
+                <span class="icon2"></span>
+                <span class="icon3"></span>
+            </button>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="/pictures/Swissipes Logo.png" alt="logo">
+                </div>
+            </a>
         </div>
         <nav class="hidden">
             <a class="drop" href="index.html">Home</a>
             <a class="drop" href="blog.html">Posts</a>
             <a class="drop" href="contact.html">Contact</a>
             <a class="drop" href="about.html">About</a>
-         </nav>
+        </nav>
     </header>
     <main>
         <section class="header-img-div-front header-img-div">
             <h1>Taste swissness</h1>
         </section>
         <div class="home-info">
-            <p>Welcome to Swissipes, your ultimate destination for the finest Swiss recipes! Immerse yourself in the rich tapestry
-                of Switzerland's culinary traditions, where every dish tells a story. From the velvety smoothness of Raclette to the
-                hearty satisfaction of Zürcher Geschnetzeltes, our curated collection showcases the very best of Swiss cuisine.
-                Perfect for both seasoned chefs and home cooks, our recipes are designed to be approachable and enjoyable. Embark on
-                a culinary adventure with us, and bring the authentic flavors of Switzerland into your home. Enjoy your meal, or as
+            <p>Welcome to Swissipes, your ultimate destination for the finest Swiss recipes! Immerse yourself in the
+                rich tapestry
+                of Switzerland's culinary traditions, where every dish tells a story. From the velvety smoothness of
+                Raclette to the
+                hearty satisfaction of Zürcher Geschnetzeltes, our curated collection showcases the very best of Swiss
+                cuisine.
+                Perfect for both seasoned chefs and home cooks, our recipes are designed to be approachable and
+                enjoyable. Embark on
+                a culinary adventure with us, and bring the authentic flavors of Switzerland into your home. Enjoy your
+                meal, or as
                 the Swiss say, En Guete!</p>
         </div>
-        <section>          
+        <section>
             <h2 class="newpost">Latest Posts</h2>
-                <section class="carouselle-wrap">
-                    <div class="arrow" id="left">
-                        <i class="fa-solid fa-chevron-left arrow-left"></i>
-                    </div>
-                    <div class="carouselle"></div>
-                    <div class="arrow" id="right">    
-                        <i class="fa-solid fa-chevron-right arrow-right"></i>
-                    </div>
-                </section>
+            <section class="carouselle-wrap">
+                <div class="arrow" id="left">
+                    <i class="fa-solid fa-chevron-left arrow-left"></i>
+                </div>
+                <div class="carouselle"></div>
+                <div class="arrow" id="right">
+                    <i class="fa-solid fa-chevron-right arrow-right"></i>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
@@ -88,4 +95,5 @@
         </div>
     </footer>
 </body>
+
 </html>
