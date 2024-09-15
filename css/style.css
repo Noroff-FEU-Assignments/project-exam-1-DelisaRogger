@@ -74,8 +74,7 @@ width: 260px;
 
 .drop {
   background-color: #da263a;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 4px;
 }
 
 .icon1, .icon2, .icon3, .rotated1, .rotated2, .rotated3 {
