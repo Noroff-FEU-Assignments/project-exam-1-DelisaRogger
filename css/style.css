@@ -254,6 +254,11 @@ z-index: 1;
   min-height: 750px;
 }
 
+.description {
+  margin: 35px;
+  font-weight: bold;
+}
+
 .instructions {
   width: 250px;
   margin-bottom: 50px;
@@ -307,6 +312,8 @@ h1, h2 {
   width: 300px;
   background-color: #ff0000a1;
   padding: 10px;
+  border-radius: 10px;
+  border: solid 1px;
 }
 
 .formdiv div {
