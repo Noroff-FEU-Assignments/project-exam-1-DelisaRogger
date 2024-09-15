@@ -64,10 +64,6 @@ font-size: 25px;
 width: 260px;
 }
 
-.hamburger {
-  position: absolute;
- }
-
 /* hamburger menu */
 
 .drop {
@@ -80,6 +76,7 @@ width: 260px;
 }
 
 .hamburger {
+  position: absolute;
   left: 89%;
   width:40px;
   top: 10px;
@@ -347,19 +344,11 @@ form p {
   height: 200px;
 }
 
-.test {
-  width: 150px;
-}
-
-.test img {
-  width: 100%;
-}
-
 .post-card img:hover {
   box-shadow: 6px 6px 14px 2px rgba(0,0,0,0.53);
 }
 
- .post-container a:hover {
+.post-container a:hover {
   transform: scale(1.1);
   transition: all 1s; 
 }
