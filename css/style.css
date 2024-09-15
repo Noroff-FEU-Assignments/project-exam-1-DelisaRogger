@@ -71,6 +71,10 @@ width: 260px;
   padding: 4px;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 .icon1, .icon2, .icon3, .rotated1, .rotated2, .rotated3 {
   transition: ease-in-out 0.5s;
 }
