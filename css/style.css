@@ -264,6 +264,11 @@ z-index: 1;
   margin-bottom: 50px;
 }
 
+.date {
+  margin-left: 75%;
+  font-size: small;
+}
+
 .instructions li, .ingredients li {
   padding: 5px;
 }
