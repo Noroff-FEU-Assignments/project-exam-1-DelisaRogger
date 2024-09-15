@@ -12,7 +12,6 @@ button {
 
 * {
   text-decoration: none;
-
   margin: 0;
   font-family: 'Inria Sans', sans-serif;
 }
@@ -22,7 +21,6 @@ header {
   top:0;
   height: 70px;
   z-index: 2;
-
 }
 
 main {
@@ -54,7 +52,7 @@ a, .arrow {
   background-color: var(--bg-color);
 }
 
-nav a, .flogos img {
+.socmed img {
   height: 30px;
 }
 
@@ -132,7 +130,7 @@ nav, header, footer div, .about-card, .post-card, .post-container,
   flex-direction: column;
 }
 
-footer, .flogos{
+footer, .socmed{
   flex-direction: row;
 }
 
@@ -151,7 +149,7 @@ footer {
   justify-content: space-between;
 }
 
-.flogos {
+.socmed {
 min-width: 150px;
 gap:10px;
 }
