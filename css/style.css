@@ -273,8 +273,15 @@ z-index: 1;
   padding: 5px;
 }
 
-h1, h2 {
+.ingredients-Heading {
   text-align: center;
+  margin: 12px;
+}
+
+h1, .newpost {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
 }
 
 /* modal */
@@ -332,8 +339,9 @@ input, textarea {
 }
 
 form p {
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inria Sans', sans-serif;
+  font-size: smaller;
+  color: #000000ab;
 }
 
 .message {
