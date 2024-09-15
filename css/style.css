@@ -72,11 +72,10 @@ width: 260px;
 
 /* hamburger menu */
 
-.drop, .active {
+.drop {
   background-color: #da263a;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 7px;
 }
 
 .icon1, .icon2, .icon3, .rotated1, .rotated2, .rotated3 {
@@ -407,12 +406,6 @@ form p {
 @media (min-width: 1200px){
 h1:not(.spec-h1) {
   font-size: 50px;
-}
-    
-.active {
-  color: var(--dark);
-  background-color: var(--white);
-  width: 120px;
 }
 
 .header-img-div {
