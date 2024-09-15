@@ -1,5 +1,5 @@
-
-
+import { fetchPost } from "./post.js";
+import { url } from "./post.js";
 
 
  async function createId(){
@@ -13,9 +13,6 @@
      
 }
 
-
-import { fetchPost } from "./post.js";
-import { url } from "./post.js";
 
 const id = await createId();
 const specificUrl = url + "/" + id + "?acf_format=standard";

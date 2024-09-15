@@ -53,6 +53,6 @@ function validateForm() {
 submit.addEventListener('click', function(event) {
     event.preventDefault();
     if (validateForm()) {
-        alert("Thank You! we have recived your email"); 
+        alert("Thank You! We will reach out to you within 24h."); 
     }
 });

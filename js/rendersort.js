@@ -28,9 +28,6 @@ toggleButton.addEventListener('click', ()=> {
 })
 
 
-
-
-
 sortButtonA.addEventListener('click', ()=> {
     postContainer.innerHTML =``
     sortAlphabetic(-1, 1);

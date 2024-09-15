@@ -1,5 +1,3 @@
-// export const = endpoint ="?acf_format=standard"
-  
 export const url = "https://delrog.com/swissipes/wp-json/wp/v2/posts";
 const endpoint = "?acf_format=standard&per_page=50"
 

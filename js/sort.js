@@ -1,9 +1,5 @@
 import { post } from "./post.js";
 
-
-
-
-
 export function sortAlphabetic(value1, value2){
     post.sort((a, b) => {
         const titleA = a.acf.title.toUpperCase();
@@ -17,9 +13,7 @@ export function sortAlphabetic(value1, value2){
         }
     
         return 0;
-    })
- 
-     
+    })    
 }
 
 export function sortByDate(value1, value2){
@@ -36,10 +30,6 @@ post.sort(function(a,b){
 
         return 0; 
   });
-
-
-
-
 }
 
 
