@@ -211,8 +211,9 @@ gap:10px;
 
 /* blog page */
 
-.showbutt {
+.showbutt, .showbuttons, .submit {
   margin: 20px;
+  background-color: lightsalmon;
 }
 
 .arrow-left, .arrow-right, .showbutt, .submit, .post-image, .hamburger, button, .overlay {
