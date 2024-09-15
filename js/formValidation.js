@@ -19,28 +19,28 @@ function validateForm() {
     let isValid = true;
 
     if (name.value.length < 3) {
-        nameParagraph.innerHTML = "Please enter a valid name";
+        nameParagraph.innerHTML = "Please enter your full name";
         isValid = false;
     } else {
         nameParagraph.innerHTML = "";
     }
 
     if (!validateEmail(email.value)) {
-        emailParagraph.innerHTML = "Please enter a valid email address";
+        emailParagraph.innerHTML = "Please enter a valid email";
         isValid = false;
     } else {
         emailParagraph.innerHTML = "";
     }
 
     if (subject.value.length < 15) {
-        subjectParagraph.innerHTML = "Your subject has to contain at least 15 characters";
+        subjectParagraph.innerHTML = "The subject field has to contain at least 10 characters";
         isValid = false;
     } else {
         subjectParagraph.innerHTML = "";
     }
 
     if (message.value.length < 26) {
-        messageParagraph.innerHTML = "Your message has to contain at least 26 characters";
+        messageParagraph.innerHTML = "The message field has to contain at least 25 characters";
         isValid = false;
     } else {
         messageParagraph.innerHTML = "";
