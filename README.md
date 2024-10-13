@@ -36,7 +36,7 @@ To get a copy of the website up and running on your local machine, follow these 
 1. Clone the repo:
 
     ```bash
-    git clone git@github.com:Noroff-FEU-Assignments/project-exam-1-DelisaRogger.git
+    git clone https://github.com/Noroff-FEU-Assignments/project-exam-1-DelisaRogger
     ```
 
 Since this project is built with HTML, CSS, and JavaScript, no additional installation steps are required.
