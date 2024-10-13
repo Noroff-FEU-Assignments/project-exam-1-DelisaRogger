@@ -19,6 +19,7 @@ Key features of the website include:
 
 The following technologies were used to build this project:
 
+- ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -34,12 +35,6 @@ To get a copy of the website up and running on your local machine, follow these 
 
     ```bash
     git clone git@github.com:Noroff-FEU-Assignments/project-exam-1-DelisaRogger.git
-    ```
-
-2. Navigate to the project folder:
-
-    ```bash
-    cd swissipes
     ```
 
 Since this project is built with HTML, CSS, and JavaScript, no additional installation steps are required.
