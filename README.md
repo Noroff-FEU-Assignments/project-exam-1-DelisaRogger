@@ -25,9 +25,11 @@ The following technologies were used to build this project:
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 - ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 
-## Getting Started
+### Prototype
 
-### Installing
+https://www.figma.com/design/s63bmCRulgvjBmiQzMAqkd/Swissipes?node-id=49-163&t=zy5sCVHJxJFU3ZWl-1
+
+## Installing
 
 To get a copy of the website up and running on your local machine, follow these steps:
 
